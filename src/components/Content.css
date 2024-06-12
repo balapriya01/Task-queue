@@ -1,0 +1,100 @@
+.showTask{
+    padding: 20px 15px;
+    border-radius: 7px;
+    height: 480px;
+    background-color: #FFFFFF;
+    width: 80%;
+    margin-left: 10em;
+    margin-top: 3.5em;
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+
+  }
+  
+  .showTask div.head{
+    padding: 10px 0px 20px 0px;
+    border-bottom: 1px solid #dfdfdf;
+    display: flex;
+    align-items: center;
+  }
+  
+  .showTask div.head div{
+    flex-grow: 1;
+  }
+  
+  .showTask .title{
+    font-size: 18px;
+    font-weight: 600;
+    user-select: none;
+  }
+  
+  .showTask .count{
+    background-color: #dfdfdf;
+    color: #525252;
+    padding: 5px 10px;
+    border-radius: 50%;
+    margin-left: 10px;
+    user-select: none;
+  }
+  
+  .showTask .clearAll{
+    background-color: teal;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 0px;
+    font-size: 16px;
+  }
+  
+  .showTask .clearAll:hover{
+    background-color: rgb(4, 77, 77);
+  }
+  
+  .showTask ul{
+    margin: 30px 5px 20px 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .showTask li{
+    padding: 15px 10px;
+    border-bottom: 1px solid #e5e5e5;
+    display: flex;
+    gap: 5px;
+    width: 350px;
+    border-radius: 5px;
+    border-left: 5px solid teal;
+  }
+  
+  .showTask li:hover{
+    background-color: #f8f8f8;
+  }
+  
+  .showTask li p{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .showTask li .name{
+    font-size: 18px;
+    padding-bottom: 5px;
+  }
+  
+  .showTask li .time{
+    font-size: 12px;
+    color: #737373;
+  }
+  
+  .showTask .edit{
+    color: teal;
+    cursor: pointer;
+  }
+
+  .showTask .delete{
+    color: maroon;
+    cursor: pointer;
+  }
